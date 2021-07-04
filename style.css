@@ -1,5 +1,8 @@
 body {
     margin: 0;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-weight: 400;
+    color: rgba(0,0,0,.87);
 }
 
 header {
@@ -10,7 +13,6 @@ header {
 .header-container {
     max-width: 1440px;
     margin: 0 auto;
-    background-color: yellow;
     height: 100%;
 }
 
@@ -20,18 +22,23 @@ header {
     align-items: center;
 }
 
-ul {
+.left-nav nav ul {
     list-style-type: none;
     display: flex;
     margin: 0;
     padding: 0;
 }
 
-li {
+.left-nav nav ul li {
     text-transform: uppercase;
     padding-left: 24px;
     font-weight: 700;
     letter-spacing: 0.1em;
+}
+
+.left-nav nav ul li:hover {
+    color: #008248;
+    cursor: pointer;
 }
 
 .logo {

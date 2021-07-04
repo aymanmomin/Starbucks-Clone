@@ -14,6 +14,8 @@ header {
     max-width: 1440px;
     margin: 0 auto;
     height: 100%;
+    display: flex;
+    justify-content: space-between;
 }
 
 .left-nav {
@@ -39,6 +41,11 @@ header {
 .left-nav nav ul li:hover {
     color: #008248;
     cursor: pointer;
+}
+
+.right-nav {
+    display: flex;
+    align-items: center;
 }
 
 .logo {

@@ -62,6 +62,11 @@ header {
     font-weight: 600;
     display: flex;
     align-items: center;
+    cursor: pointer;
+}
+
+.find-store:hover {
+    color: #008248;
 }
 
 .find-store i {
@@ -75,10 +80,16 @@ header {
     border-radius: 50px;
     font-weight: 600;
     line-height: 1.2;
+    cursor: pointer;
 }
 
 .sign-in {
     margin-right: 16px;
+}
+
+.sign-in:hover {
+    background-color: rgba(0,0,0,.06);
+    transition: all .2s ease;
 }
 
 .join-now {
@@ -89,4 +100,5 @@ header {
 .join-now:hover {
     background-color: rgba(0,0,0,.7);
     border-color: rgba(0,0,0,.7);
+    transition: all .2s ease;
 }

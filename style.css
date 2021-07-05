@@ -43,11 +43,6 @@ header {
     cursor: pointer;
 }
 
-.right-nav {
-    display: flex;
-    align-items: center;
-}
-
 .logo {
     height: 51px;
     width: 51px;
@@ -55,4 +50,43 @@ header {
 
 .logo img {
     height: 100%;
+}
+
+.right-nav {
+    display: flex;
+    align-items: center;
+}
+
+.find-store {
+    margin-right: 40px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+
+.find-store i {
+    padding-right: 8px;
+    font-size: 24px;
+}
+
+.sign-in, .join-now {
+    padding: 7px 16px;
+    border: 1px solid;
+    border-radius: 50px;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.sign-in {
+    margin-right: 16px;
+}
+
+.join-now {
+    background-color: black;
+    color: white;
+}
+
+.join-now:hover {
+    background-color: rgba(0,0,0,.7);
+    border-color: rgba(0,0,0,.7);
 }

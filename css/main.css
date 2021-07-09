@@ -96,6 +96,8 @@
 
 .top-bottom-sections {
     width: 50%;
+    display: flex;
+    margin-bottom: 32px;
 }
 
 .top-bottom-sections .section-container {
@@ -105,6 +107,7 @@
 
 .top-bottom-sections .section-container .image {
     width: 100%;
+    display: flex;
 }
 
 .top-bottom-sections .section-container .image img {
@@ -114,6 +117,10 @@
 .top-bottom-sections .text {
     display: flex;
     flex-direction: column;
+    background-color: #d4e9e2;
+    padding: 16px 24px 32px 24px;
+    color: #1e3932;
+    flex-grow: 1;
 }
 
 .cta-container {
@@ -128,4 +135,16 @@
 
 .top-bottom-sections:last-child .section-container {
     margin-left: 16px;
+}
+
+.top-bottom-sections .text h1 {
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 24px;
+    
+}
+
+.top-bottom-sections .text h3 {
+    font-size: 19px;
+    line-height: 1.75;
 }

@@ -121,3 +121,11 @@
     align-items: center;
     justify-content: center;
 }
+
+.top-bottom-sections:first-child .section-container {
+    margin-right: 16px;
+}
+
+.top-bottom-sections:last-child .section-container {
+    margin-left: 16px;
+}

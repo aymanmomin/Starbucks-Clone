@@ -87,3 +87,31 @@
     line-height: 1.5;
     font-size: 24px;
 }
+
+/* Top Bottom Section */
+
+.vertical {
+    display: flex;
+}
+
+.top-bottom-sections {
+    width: 50%;
+}
+
+.top-bottom-sections .section-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.top-bottom-sections .section-container .image {
+    width: 100%;
+}
+
+.top-bottom-sections .section-container .image img {
+    width: 100%;
+}
+
+.top-bottom-sections .text {
+    display: flex;
+    flex-direction: column;
+}
